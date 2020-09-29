@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "product_sansbold";
+  src: url("./typeface/product_sans_bold_copy-webfont.woff2") format("woff2"),
+    url("./typeface/product_sans_bold_copy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "product_sansbold_italic";
+  src: url("./typeface/product_sans_bold_italic_copy-webfont.woff2")
+      format("woff2"),
+    url("./typeface/product_sans_bold_italic_copy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "product_sansitalic";
+  src: url("./typeface/product_sans_italic_copy-webfont.woff2") format("woff2"),
+    url("./typeface/product_sans_italic_copy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "product_sansregular";
+  src: url("./typeface/product_sans_regular_copy-webfont.woff2") format("woff2"),
+    url("./typeface/product_sans_regular_copy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
