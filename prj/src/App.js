@@ -1,5 +1,5 @@
 import React from "react";
-
+import Team from "./components/Team";
 import "./App.css";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <h4>The Dream Team</h4>
       </header>
+      <Team />
     </div>
   );
 }

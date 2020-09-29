@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
+  border-bottom: 0.25px solid lightgray;
   height: 8vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header h4 {
+  font-family: "product_sansbold";
+  color: #282c34;
 }
 
 .App-link {
